@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الضغاط</string>
+    <string name="app_tagline">ضغط الفيديو على جهازك، دون إنترنت</string>
+
+    <!-- Home -->
+    <string name="home_pick_video">اختر فيديو</string>
+    <string name="home_browse_files">تصفح ملفات الجهاز</string>
+    <string name="home_empty_title">لم يتم تحديد أي فيديو</string>
+    <string name="home_empty_body">اختر فيديو من معرض الصور أو من ملفات جهازك لتبدأ ضغطه وتقليل حجمه.</string>
+    <string name="home_offline_note">يعمل التطبيق بالكامل دون اتصال بالإنترنت.</string>
+    <string name="home_change_video">تغيير الفيديو</string>
+    <string name="home_quality_title">جودة الضغط</string>
+    <string name="home_quality_subtitle">لن تُرفع دقة الفيديو أبدًا فوق دقته الأصلية.</string>
+    <string name="home_custom_bitrate_title">معدل بت الفيديو</string>
+    <string name="home_custom_bitrate_value">%1$d كيلوبت/ث</string>
+    <string name="home_audio_bitrate_title">معدل بت الصوت</string>
+    <string name="home_codec_title">الترميز</string>
+    <string name="home_codec_h264">H.264 – الأوسع توافقًا</string>
+    <string name="home_codec_hevc">H.265 / HEVC – حجم أقل</string>
+    <string name="home_codec_hevc_unavailable">غير مدعوم على هذا الجهاز</string>
+    <string name="home_estimate_title">التقديرات</string>
+    <string name="home_start">بدء الضغط</string>
+
+    <string name="home_label_file">اسم الملف</string>
+    <string name="home_label_resolution">الدقة</string>
+    <string name="home_label_duration">المدة</string>
+    <string name="home_label_frame_rate">معدل الإطارات</string>
+    <string name="home_label_audio_track">الصوت</string>
+    <string name="home_audio_present">يوجد</string>
+    <string name="home_audio_absent">لا يوجد</string>
+
+    <string name="label_original_size">الحجم الأصلي</string>
+    <string name="label_estimated_size">الحجم التقديري</string>
+    <string name="label_expected_saving">المساحة المتوقع توفيرها</string>
+    <string name="label_reduction_ratio">نسبة تقليل الحجم</string>
+    <string name="label_final_size">الحجم النهائي</string>
+    <string name="label_quality_used">الجودة المستخدمة</string>
+    <string name="label_date">التاريخ</string>
+    <string name="label_status">الحالة</string>
+    <string name="label_output_resolution">دقة المخرجات</string>
+    <string name="label_output_bitrate">معدل البت المستخدم</string>
+    <string name="estimate_disclaimer">الحجم التقديري يعتمد على معدلات البت وقد يختلف عن الحجم الفعلي للناتج.</string>
+
+    <!-- Job -->
+    <string name="job_preparing">جارٍ التحضير…</string>
+    <string name="job_running">جارٍ الضغط… %1$d%%</string>
+    <string name="job_saving">جارٍ حفظ الملف في مجلد ABBAS…</string>
+    <string name="job_elapsed">الوقت المنقضي</string>
+    <string name="job_remaining">الوقت المتبقي (تقديري)</string>
+    <string name="job_background_hint">يمكنك الانتقال إلى تطبيق آخر، وستستمر المعالجة في الخلفية.</string>
+    <string name="job_eta_unknown">—</string>
+    <string name="job_cancelled_by_user">تم إلغاء العملية بناءً على طلبك، وحُذف الملف المؤقت.</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_open_video">فتح الفيديو</string>
+    <string name="action_open_folder">فتح مجلد ABBAS</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_retry">إعادة المحاولة</string>
+
+    <!-- Completion -->
+    <string name="success_title">تم الضغط بنجاح</string>
+    <string name="success_output_name">اسم الملف الناتج</string>
+    <string name="success_saved_in">تم الحفظ في Movies/ABBAS</string>
+
+    <!-- History -->
+    <string name="history_title">سجل العمليات</string>
+    <string name="history_empty">لا توجد عمليات ضغط حتى الآن.</string>
+    <string name="history_open_folder">مجلد ABBAS</string>
+    <string name="history_delete_title">حذف العملية</string>
+    <string name="history_delete_body">هل تريد حذف هذه العملية من السجل؟</string>
+    <string name="history_delete_file_too">حذف ملف الفيديو الناتج أيضًا من الجهاز</string>
+    <string name="history_deleted">تم حذف السجل</string>
+    <string name="folder_title">مجلد ABBAS</string>
+    <string name="folder_empty">لا توجد ملفات في مجلد ABBAS.</string>
+    <string name="folder_load_failed">تعذر قراءة محتويات المجلد.</string>
+    <string name="folder_open_external">فتح المجلد في مدير الملفات</string>
+
+    <string name="status_running">قيد التنفيذ</string>
+    <string name="status_completed">مكتملة</string>
+    <string name="status_failed">فاشلة</string>
+    <string name="status_cancelled">ملغاة</string>
+    <string name="status_interrupted">متوقفة</string>
+
+    <!-- Errors -->
+    <string name="error_pick_video">تعذر قراءة الفيديو المحدد. تأكد أن الملف فيديو صالح.</string>
+    <string name="error_compression_failed">فشل الضغط: %1$s</string>
+    <string name="error_no_encoder">لا يوجد مُرمِّز فيديو متوافق مع هذا الجهاز لهذه الدقة.</string>
+    <string name="error_storage_full">لا توجد مساحة تخزين كافية لإتمام العملية.</string>
+    <string name="error_busy">هناك عملية ضغط قيد التنفيذ بالفعل.</string>
+    <string name="error_save_failed">تعذر حفظ الفيديو في مجلد ABBAS.</string>
+    <string name="error_storage_permission">نحتاج صلاحية التخزين لحفظ الفيديو في مجلد ABBAS على هذا الإصدار من أندرويد.</string>
+    <string name="error_open_failed">تعذر فتح الفيديو: لا يوجد تطبيق مناسب.</string>
+    <string name="error_share_failed">تعذر مشاركة الفيديو.</string>
+    <string name="error_not_enough_space_temp">المساحة الحرة لا تكفي لمعالجة هذا الفيديو. حرّر مساحة ثم أعد المحاولة.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_progress">تقدم الضغط</string>
+    <string name="notification_channel_progress_desc">إشعارات تقدم معالجة الفيديو</string>
+    <string name="notification_channel_result">نتائج الضغط</string>
+    <string name="notification_channel_result_desc">إشعارات اكتمال أو فشل ضغط الفيديو</string>
+    <string name="notification_running_title">جارٍ ضغط الفيديو</string>
+    <string name="notification_progress_format">%1$d%% • %2$s</string>
+    <string name="notification_saved_title">تم حفظ الفيديو المضغوط</string>
+    <string name="notification_saved_text">%1$s • %2$s</string>
+    <string name="notification_failed_title">فشل ضغط الفيديو</string>
+    <string name="notification_cancelled_title">تم إلغاء الضغط</string>
+    <string name="notification_cancelled_text">%1$s</string>
+    <string name="notification_action_cancel">إلغاء</string>
+    <string name="notification_action_open">فتح</string>
+    <string name="notification_permission_hint">ستظهر نسبة التقدم في الإشعار عند السماح بالإشعارات.</string>
+
+    <!-- Misc -->
+    <string name="time_unknown">—</string>
+    <string name="permission_denied">تم رفض الصلاحية، وقد لا تعمل بعض الوظائف.</string>
+</resources>
